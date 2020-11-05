@@ -1,0 +1,11 @@
+|full_adder
+x => z.IN0
+x => carry.IN1
+y => z.IN1
+y => Add0.IN2
+ci => z.IN1
+ci => carry.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
